@@ -178,6 +178,7 @@
     <ClCompile Include="src\OGSystem\Timer\glTimer.cpp" />
     <ClCompile Include="src\OGSystem\Window\Window.cpp" />
     <ClCompile Include="src\OGSystem\_OGsystem.cpp" />
+    <ClCompile Include="src\Task\Back.cpp" />
     <ClCompile Include="src\Task\Couple.cpp" />
     <ClCompile Include="src\Task\Effect.cpp" />
     <ClCompile Include="src\Task\Ending.cpp" />
@@ -212,6 +213,7 @@
     <ClInclude Include="src\OGSystem\Timer\glTimer.h" />
     <ClInclude Include="src\OGSystem\Window\Window.h" />
     <ClInclude Include="src\OGSystem\_OGsystem.h" />
+    <ClInclude Include="src\Task\Back.h" />
     <ClInclude Include="src\Task\Couple.h" />
     <ClInclude Include="src\Task\Effect.h" />
     <ClInclude Include="src\Task\Ending.h" />

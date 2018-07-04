@@ -46,10 +46,10 @@ int main() {
 		return -1;
 	}
 	ogtk->StartTaskObject();
-	delete ogtk;
 	while (System->LibConfirmation()) 
 	{
 		
 	}
+	delete ogtk;
 	delete System;
 }

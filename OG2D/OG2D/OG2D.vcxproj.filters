@@ -96,6 +96,9 @@
     <Filter Include="ソースファイル\Task\UI">
       <UniqueIdentifier>{63bf8802-81df-4ced-8f04-035875b9af9f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ソースファイル\Task\Back">
+      <UniqueIdentifier>{c5e54687-2333-481e-9d60-86fa3d741646}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Win\WinMain.cpp">
@@ -191,6 +194,9 @@
     <ClCompile Include="src\Task\Couple.cpp">
       <Filter>ソースファイル\Task\Couple</Filter>
     </ClCompile>
+    <ClCompile Include="src\Task\Back.cpp">
+      <Filter>ソースファイル\Task\Back</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Object\Object.h">
@@ -285,6 +291,9 @@
     </ClInclude>
     <ClInclude Include="src\Task\Couple.h">
       <Filter>ソースファイル\Task\Couple</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Task\Back.h">
+      <Filter>ソースファイル\Task\Back</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

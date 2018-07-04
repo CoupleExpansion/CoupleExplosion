@@ -4,6 +4,7 @@
 
 class Game : public TaskObject
 {
+	
 public:
 	Game();
 	virtual ~Game();

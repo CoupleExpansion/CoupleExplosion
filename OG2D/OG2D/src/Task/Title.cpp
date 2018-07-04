@@ -1,5 +1,5 @@
 #include "Title.h"
-
+#include "Game.h"
 Title::Title()
 {
 	__super::Init("Title");
@@ -8,12 +8,12 @@ Title::Title()
 
 Title::~Title()
 {
-
+	Game::Create();
 }
 
 void Title::UpDate()
 {
-
+	__super::Kill();
 }
 
 void Title::Render2D()
