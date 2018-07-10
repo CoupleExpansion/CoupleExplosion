@@ -156,6 +156,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\Gimmic\Bomb.cpp" />
     <ClCompile Include="src\Object\Object.cpp" />
     <ClCompile Include="src\OGSystem\Audio\Audio.cpp" />
     <ClCompile Include="src\OGSystem\Audio\Sound.cpp" />
@@ -190,6 +191,7 @@
     <ClCompile Include="src\Win\WinMain.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\Gimmic\Bomb.h" />
     <ClInclude Include="src\Object\Object.h" />
     <ClInclude Include="src\OGSystem\Audio\Audio.h" />
     <ClInclude Include="src\OGSystem\Audio\Sound.h" />

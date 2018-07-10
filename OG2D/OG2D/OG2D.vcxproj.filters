@@ -99,6 +99,9 @@
     <Filter Include="ソースファイル\Task\Back">
       <UniqueIdentifier>{c5e54687-2333-481e-9d60-86fa3d741646}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ソースファイル\Task\Bomb">
+      <UniqueIdentifier>{f349f7c7-7fa2-4846-98fb-17bf37f7097c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Win\WinMain.cpp">
@@ -197,6 +200,9 @@
     <ClCompile Include="src\Task\Back.cpp">
       <Filter>ソースファイル\Task\Back</Filter>
     </ClCompile>
+    <ClCompile Include="src\Gimmic\Bomb.cpp">
+      <Filter>ソースファイル\Task\Bomb</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Object\Object.h">
@@ -294,6 +300,9 @@
     </ClInclude>
     <ClInclude Include="src\Task\Back.h">
       <Filter>ソースファイル\Task\Back</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Gimmic\Bomb.h">
+      <Filter>ソースファイル\Task\Bomb</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

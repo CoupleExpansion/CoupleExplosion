@@ -4,6 +4,18 @@
 #include "Object\Object.h"
 class Couple : public TaskObject,public GameObject
 {
+	enum Angle {
+		LEFT,RIGHT,
+	};
+	enum State {
+		RandomWalk,
+		ChaseMouse,
+		Explosion,
+	};
+	Angle angle;
+	State state;
+	Texture* coupleTex;
+
 public:
 	Couple();
 	virtual ~Couple();

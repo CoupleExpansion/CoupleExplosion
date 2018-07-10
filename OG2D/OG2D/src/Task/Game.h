@@ -4,7 +4,7 @@
 
 class Game : public TaskObject
 {
-	
+	Texture coupleTex;
 public:
 	Game();
 	virtual ~Game();
